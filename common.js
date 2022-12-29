@@ -45,7 +45,7 @@ $elm.forEach(function (item, idx) {
 });
 
 // 모바일 슬라이드
-var swiper2 = new Swiper(".m_thumb_con", {
+var swiper1 = new Swiper(".m_thumb_con", {
   slidesPerView: 1,
   spaceBetween: 40,
   loop: true,
@@ -56,7 +56,7 @@ var swiper2 = new Swiper(".m_thumb_con", {
   },
 });
 //sec2
-var swiper3 = new Swiper(".thumb_con", {
+var swiper1 = new Swiper(".thumb_con", {
   slidesPerView: 5,
   spaceBetween: 40,
   slidesPerGroup: 1,
@@ -78,3 +78,20 @@ $btnHam.addEventListener("click", function () {
   $gnb.classList.toggle("on");
   $btnHam.classList.toggle("on");
 });
+
+console.log(
+  `
+  :::    :::  ::::::::::  :::         :::          ::::::::  
+  :+:    :+:  :+:         :+:         :+:         :+:    :+: 
+  +:+    +:+  +:+         +:+         +:+         +:+    +:+ 
+  +#++:++#++  +#++:++#    +#+         +#+         +#+    +:+ 
+  +#+    +#+  +#+         +#+         +#+         +#+    +#+ 
+  #+#    #+#  #+#         #+#         #+#         #+#    #+# 
+  ###    ###  ##########  ##########  ##########   ########                                             
+`
+);
+console.log("https://github.com/chaennn");
+console.log(
+  `%c카카오톡 ID입니다. 용건이 있으시면 연락주세요:) chaen_hhh`,
+  `color:white`
+);
