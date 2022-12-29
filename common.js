@@ -7,7 +7,6 @@ window.addEventListener("scroll", function () {
   } else {
     $hd.classList.remove("on");
   }
-  console.log(scrollTop);
 });
 
 const $elm = document.querySelectorAll("section");
