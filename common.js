@@ -87,10 +87,9 @@ console.log(
   +#+    +#+  +#+         +#+         +#+         +#+    +#+ 
   #+#    #+#  #+#         #+#         #+#         #+#    #+# 
   ###    ###  ##########  ##########  ##########   ########                                             
-`
+  
+  https://github.com/chaennn
+  `
 );
-console.log("https://github.com/chaennn");
-console.log(
-  `%c카카오톡 ID입니다. 용건이 있으시면 연락주세요:) chaen_hhh`,
-  `color:white`
-);
+
+console.log(`용건이 있으시면 연락주세요:) https://open.kakao.com/o/s0l9oyWe`);
